@@ -33,6 +33,6 @@ async def dowj(e):
     try:
         await replied.delete()
         await e.client.edit_permissions(e.chat_id, user, view_messages=False)
-        await eor(e, "Banned Successfully!")
+        await eor(e, "naku sethapayale banned 😂")
     except Exception as E:
         await eor(e, str(E))
